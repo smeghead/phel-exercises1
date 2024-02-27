@@ -1,0 +1,18 @@
+{
+    "name": "smeghead/practice",
+    "type": "project",
+    "require": {
+        "phel-lang/phel-lang": "^0.12.0"
+    },
+    "license": "Apache 2.0",
+    "autoload": {
+        "psr-4": {
+            "Smeghead\\Practice\\": "src/"
+        }
+    },
+    "scripts": {
+        "phel": [
+            "./vendor/bin/phel"
+        ]
+    }
+}
