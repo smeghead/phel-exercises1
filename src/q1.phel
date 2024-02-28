@@ -1,0 +1,5 @@
+(ns q1)
+
+(defn answer []
+  (+ 1 1))
+

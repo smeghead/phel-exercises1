@@ -1,5 +1,11 @@
 # phel-exercises1
 
+## Basic syntax
+
+study Phel basic syntax.
+
+https://phel-lang.org/tutorials/exercises/basic/
+
 ## Development
 
 ```bash

@@ -1,4 +1,3 @@
-(ns practice\hello
-  (:require-file "vendor/autoload.php"))
+(ns hello)
 
 (printf "%s\n" "hello")

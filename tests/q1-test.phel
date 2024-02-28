@@ -1,0 +1,6 @@
+(ns q1\tests
+  (:require phel\test :refer [deftest is])
+  (:require q1 :refer [answer]))
+
+(deftest q1-test
+  (is (= 2 (answer))))

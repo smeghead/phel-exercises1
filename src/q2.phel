@@ -1,0 +1,4 @@
+(ns q2)
+
+(defn answer []
+  (get "hello" 1))

@@ -1,0 +1,6 @@
+(ns q3\tests
+  (:require phel\test :refer [deftest is])
+  (:require q3 :refer [answer]))
+
+(deftest q3-test
+  (is (= 22.8 (php/round (answer) 1))))
