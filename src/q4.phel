@@ -1,0 +1,4 @@
+(ns q4)
+
+(defn answer []
+  [2 "nice" true])

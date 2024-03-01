@@ -1,0 +1,8 @@
+(ns q4\tests
+  (:require phel\test :refer [deftest is])
+  (:require q4 :refer [answer]))
+
+(deftest q4-test
+  (is (= 2 (get (answer) 0)))
+  (is (= "nice" (get (answer) 1)))
+  (is (= true (get (answer) 2))))

@@ -1,0 +1,6 @@
+(ns q13\tests
+  (:require phel\test :refer [deftest is])
+  (:require q13 :refer [answer]))
+
+(deftest q13-test
+  (is (= :treasure (answer))))

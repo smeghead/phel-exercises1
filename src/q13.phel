@@ -1,0 +1,9 @@
+(ns q13)
+
+(def my-map {:description "cave"
+             :crossroads [{:contents :monster}
+                          nil
+                          {:contents [:trinket :treasure]}]})
+
+(defn answer []
+  (get-in my-map [:crossroads 2 :contents 1]))
